@@ -6,3 +6,17 @@
   .blue {
     color: #1b91ff !important; }
   
+  .bgcover{
+    background-position: center center;
+   background-size: cover;
+  }
+  .overwhite{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  }
+  .overwhite h3{
+    color: white !important;
+    text-shadow: 1px 1px 4px #000000;
+  }
+  
