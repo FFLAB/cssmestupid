@@ -19,4 +19,38 @@
     color: white !important;
     text-shadow: 1px 1px 4px #000000;
   }
+
+  /* animation */
+  .flex {
+    animation: resize ease 4s infinite alternate;
+		display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+		margin: auto;
+	}
+
+	.flex .item {
+    flex-grow: 1 1;
+    margin-left:30px;
+  }
+  .flex .item img{
+    border: 0px !important;
+  }
+
+	.flex--fixed .item {
+		flex-basis: 120px;
+	}
+  @keyframes resize {
+    from { width: 70%; }
+    50% {width: 45%;}
+    to { width: 20%; }
+  }
+  @keyframes resize2 {
+    from { width: 120px; height: 120px; }
+    16% { width: 800px; height: 120px; }
+    32% { width: 450px; height: 120px; }
+    50% { width: 450px; height: 280px; }
+    83% { width: 120px; height: 280px; }
+    to { width: 120px; height: 120px; }
+  }
   
