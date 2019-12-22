@@ -118,6 +118,12 @@
     /* 50% {width: 700px;} */
     to { width: 150px; }
   }
+  .wpmi{
+    border: 0 !important;
+    background: transparent !important;
+    width: 50%;
+    height: auto;
+  }
 
   /* .reveal .slide-background-content {
     position: absolute;
