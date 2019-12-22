@@ -60,6 +60,20 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   }
 
+  .grazie{
+    animation: resize4 ease 1s infinite alternate;
+    display: flex;
+    color: orangered;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+		margin: auto;
+  }
+  @keyframes resize4 {
+    from { transform: scale(0.8); }
+    /* 50% {width: 700px;} */
+    to { transform: scale(1.4); }
+  }
+
   .mquery {
     animation: resize2 ease 3s infinite alternate;
 		display: flex;
