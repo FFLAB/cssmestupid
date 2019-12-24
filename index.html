@@ -25,6 +25,7 @@
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 		<!-- <link rel="stylesheet" href="css/theme/white.css"> -->
+		<link rel="stylesheet" href="css/mygrid.css">
 		<link rel="stylesheet" href="css/mystyle.css">
 
 		<!-- Theme used for syntax highlighting of code -->
@@ -301,7 +302,35 @@ div{
 			<iframe src="https://giphy.com/embed/3o7abEzrkevQgVXDG0" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 		</section>
 		<section>
+			<h4>Amo il display:grid perchè mi permette finalmente di mettere i bassotti dove voglio...</h4>
+			<pre><code class="css" data-trim data-line-numbers="1-6">
+				div{
+					display: grid;
+					grid-template-columns: repeat(8, 1fr);
+					grid-template-rows: repeat(8, 5vw);
+					grid-gap: 1.5rem; 
+					}
+				
+									</code></pre>
+		</section>
+		<section>
 			<h4>Grid</h4>
+			<div class="gridcontainer">
+				<div class="gallery">
+					<figure class="gallery__item gallery__item--1">
+					   <img src="img/sissicharlie.jpg" alt="Gallery image 6" class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item--2">
+						<img src="img/sis1.jpg" alt="Gallery image 2" class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item--3"><!--big-->
+						<img src="img/charlie500.jpg" alt="Gallery image 3" class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item--4">
+						<img src="img/cha1.jpg" alt="Gallery image 5" class="gallery__img">
+					</figure>
+				</div>
+			</div>
 		</section>
 
 		<section>
@@ -311,6 +340,26 @@ div{
 
 		<section>
 			<h4>Sass</h4>
+			<div class="gridcontainer">
+				<div class="gallery">
+					<figure class="gallery__item gallery__item--1">
+						<div class="overlay o1"></div>
+					   <img src="img/sissicharlie.jpg" alt="Gallery image 6" class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item--2">
+						<div class="overlay o2"></div>
+						<img src="img/sis1.jpg" alt="Gallery image 2" class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item--3"><!--big-->
+						<div class="overlay o3"></div>
+						<img src="img/charlie500.jpg" alt="Gallery image 3" class="gallery__img">
+					</figure>
+					<figure class="gallery__item gallery__item--4">
+						<div class="overlay o4"></div>
+						<img src="img/cha1.jpg" alt="Gallery image 5" class="gallery__img">
+					</figure>
+				</div>
+			</div>
 		</section>
 		
 

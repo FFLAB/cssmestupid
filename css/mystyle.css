@@ -124,6 +124,22 @@
     width: 50%;
     height: auto;
   }
+/* SASS demo - variables colors on grid */
+figure{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 19px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  }
+.o1{  background-color: rgba(195, 8, 65, 0.5);}
+.o2{   background-color: rgba(0, 0, 0, 0.5);}
+.o3{  background-color: rgba(222, 239, 11, 0.5);}
+.o4{  background-color: rgba(9, 199, 16, 0.5);}
+
 
   /* .reveal .slide-background-content {
     position: absolute;
