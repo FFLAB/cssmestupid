@@ -99,8 +99,12 @@
     flex-grow: 1 1;
     margin-left:30px;
   }
-  .item img{
+  .item img,
+  .gif{
     border: 0px !important;
+  }
+  .gif{
+    width: 500px;
   }
 
  
